@@ -4,7 +4,6 @@ use function Laravel\Folio\{middleware, name};
 use function Livewire\Volt\{state, rules};
 
 name('home');
-middleware(['redirect-to-dashboard']);
 
 ?>
 
@@ -19,13 +18,10 @@ middleware(['redirect-to-dashboard']);
             <div class="flex items-center w-full max-w-6xl px-8 pt-12 pb-20 mx-auto">
                 <div class="container relative max-w-4xl mx-auto mt-20 text-center sm:mt-24 lg:mt-32">
                     <div style="background-image:linear-gradient(160deg,#e66735,#e335e2 50%,#73f7f8, #a729ed)" class="inline-block w-auto p-0.5 shadow rounded-full animate-gradient">
-                        <p class="w-auto h-full px-3 bg-slate-50 dark:bg-neutral-900 dark:text-white py-1.5 font-medium text-sm tracking-widest uppercase  rounded-full text-slate-800/90 group-hover:text-white/100">Welcome to Genesis</p>
+                        <p class="w-auto h-full px-3 bg-slate-50 dark:bg-neutral-900 dark:text-white py-1.5 font-medium text-sm tracking-widest uppercase  rounded-full text-slate-800/90 group-hover:text-white/100">Chicken Business</p>
                     </div>
-                    <h1 class="mt-5 text-4xl font-light leading-tight tracking-tight text-center dark:text-white text-slate-800 sm:text-5xl md:text-8xl">The Beginning of Your<br> Next Great Idea.</h1>
-                    <p class="w-full max-w-2xl mx-auto mt-8 text-lg dark:text-white/60 text-slate-500">The ultimate application starter kit with built-in features like Authentication, User Dashboards, Edit Profiles, UI Components, and much more! </p>
+                    <h1 class="mt-5 text-4xl font-light leading-tight tracking-tight text-center dark:text-white text-slate-800 sm:text-5xl md:text-8xl">Get clucked</h1>
                     <div class="flex items-center justify-center w-full max-w-sm px-5 mx-auto mt-8 space-x-5">
-                        <x-ui.button type="secondary" tag="a" href="https://github.com/thedevdojo/genesis" target="_blank">View the Docs</x-ui.button>
-                        <x-ui.button type="primary" tag="a" href="https://github.com/thedevdojo/genesis" target="_blank">View Github Repo</x-ui.button>
                     </div>
                 </div>
             </div>
