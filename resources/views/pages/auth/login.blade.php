@@ -32,7 +32,7 @@ $authenticate = function(){
 
         <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <x-ui.link href="{{ route('home') }}">
-                <x-ui.logo class="w-auto h-10 mx-auto text-gray-700 fill-current dark:text-gray-100" />
+                <x-ui.logo class="mx-auto" />
             </x-ui.link>
 
             <h2 class="mt-5 text-2xl font-extrabold leading-9 text-center text-gray-800 dark:text-gray-200">Sign in to your account</h2>
